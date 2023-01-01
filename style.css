@@ -1,0 +1,129 @@
+*{margin: 0px;
+
+}
+body{
+    padding: 0px;
+    background-image: url(.//Fitness-Girl-Wallpaper-06846.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    /* border: 2px solid red; */
+
+}
+.mid{
+    display: block;
+    width: 38%;
+    /* border: 2px solid green; */
+    margin: 20px auto;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    /* border: 2px solid yellow; */
+}
+.navbar{
+    display:inline-block
+}
+.navbar li{
+    display: inline-block;
+    color: white;
+    font-size: 17px;
+}
+.navbar li a{
+    color:white;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: gray;
+}
+.left img{
+    width: 85px;
+    filter: invert(100%);
+    /* background-color: black; */
+}
+.left div{
+    text-align: center;
+    line-height: 23px;
+    font-size: 20px;
+}
+.btn{
+    padding: 3px 4px;
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    border: 2px solid gray;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.btn:hover{
+    background-color: rgb(57, 54, 54);
+}
+.container{
+    /* border: 2px solid white; */
+    margin: 127px 59px;
+    padding: 41px 53px;
+    width: 30%;
+    border-radius: 33px;
+}
+.formgroup input{
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 1px;
+    border: 2px solid #000;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.formgroup label{
+    text-align: center;
+    display: block;
+    width: 250px;
+    padding: 1px;
+    /* border: 2px solid #000; */
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* background-color: white; */
+    color:rgb(60, 58, 58);
+
+}
+.formgroup option,select{
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 1px;
+    border: 2px solid #000;
+    margin: 11px auto;
+    font-size: 18px;
+    border-radius: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(60, 58, 58);
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: inline-block;
+    width: 210px;
+    margin: 13px auto;
+    border-radius: 9px;
+    padding: 5px;
+    
+}
